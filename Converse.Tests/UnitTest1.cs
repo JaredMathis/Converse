@@ -6,7 +6,9 @@ namespace Converse.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var l = new Learner();
+            var l = new Learner("apple");
+
+            
         }
     }
 }
