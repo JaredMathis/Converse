@@ -22,8 +22,7 @@ namespace Converse.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var l = new Learner(startWord);
-            Assert.AreEqual(l.Learn(), Learner.AskDefinitionFor(startWord));
+            Assert.AreEqual(sut.Learn(), Learner.AskDefinitionFor(startWord));
         }
     }
 }
