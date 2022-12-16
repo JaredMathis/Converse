@@ -17,12 +17,14 @@ namespace Converse.Tests
         public void TestMethod2()
         {
             TestMethod1();
+
+            //sut.
         }
 
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(sut.Learn(), Learner.AskDefinitionFor(startWord));
+            Assert.AreEqual(sut.Question(), Learner.AskDefinitionFor(startWord));
         }
     }
 }

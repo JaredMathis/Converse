@@ -9,7 +9,7 @@
             this.startWord = startWord;
         }
 
-        public string Learn()
+        public string Question()
         {
             return AskDefinitionFor(startWord);
         }
