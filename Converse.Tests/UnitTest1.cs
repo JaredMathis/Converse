@@ -11,7 +11,7 @@ namespace Converse.Tests
             Assert.AreEqual(l.Learn(), Learner.AskDefinitionFor(word));
         }
         [TestMethod]
-        public Learner TestMethod1()
+        public void TestMethod1()
         {
             var word = "apple";
             var l = new Learner(word);
