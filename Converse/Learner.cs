@@ -3,25 +3,22 @@
     public class Learner
     {
         private string startWord;
+        private AskDefinition ad;
 
-        public Learner(string startWord)
+        public Learner(AskDefinition ad, string startWord)
         {
             this.startWord = startWord;
+            this.ad = ad;
         }
 
         public string Question()
         {
-            return AskDefinitionFor(startWord);
-        }
-
-        public static string AskDefinitionFor(string word)
-        {
-            return $"what is {word}?";
+            return ad.For(startWord);
         }
 
         public void Learn(string question, string answer)
         {
-            throw new NotImplementedException();
+
         }
 
         public static string Implies(string a, string b)
