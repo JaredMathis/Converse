@@ -16,7 +16,6 @@ namespace Converse.Tests
             var word = "apple";
             var l = new Learner(word);
             Assert.AreEqual(l.Learn(), Learner.AskDefinitionFor(word));
-            return l;
         }
     }
 }
