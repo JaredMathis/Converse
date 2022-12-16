@@ -16,7 +16,7 @@
 
         public static string AskDefinitionFor(string word)
         {
-            return $"What is {word}?";
+            return $"what is {word}?";
         }
 
         public void Learn(string question, string answer)
@@ -26,7 +26,7 @@
 
         public static string Implies(string a, string b)
         {
-            throw new NotImplementedException();
+            return $"a is b";
         }
 
         public bool Quiz(string v)
