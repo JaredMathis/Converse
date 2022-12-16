@@ -8,6 +8,7 @@ namespace Converse.Tests
         {
             var l = new Learner("apple");
 
+            l.Learn();
             
         }
     }

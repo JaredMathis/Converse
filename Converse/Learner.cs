@@ -2,11 +2,16 @@
 {
     public class Learner
     {
-        private string v;
+        private string startWord;
 
         public Learner(string startWord)
         {
-            this.v = startWord;
+            this.startWord = startWord;
+        }
+
+        public string Learn()
+        {
+            throw new NotImplementedException();
         }
     }
 }
