@@ -18,5 +18,20 @@
         {
             return $"What is {word}?";
         }
+
+        public void Learn(string v, string fruit)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static object Implies(string a, string b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Quiz(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
