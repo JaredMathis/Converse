@@ -11,7 +11,12 @@
 
         public string Learn()
         {
-            throw new NotImplementedException();
+            return AskDefinitionFor(startWord);
+        }
+
+        public static string AskDefinitionFor(string word)
+        {
+            return $"What is {word}?";
         }
     }
 }

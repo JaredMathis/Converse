@@ -6,9 +6,11 @@ namespace Converse.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var l = new Learner("apple");
+            var word = "apple";
 
-            l.Learn();
+            var l = new Learner(word);
+
+            Assert.AreEqual(l.Learn(), Learner.AskDefinitionFor(word));
             
         }
     }
