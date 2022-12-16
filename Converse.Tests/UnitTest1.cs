@@ -16,6 +16,7 @@ namespace Converse.Tests
         [TestMethod]
         public void TestMethod2()
         {
+            TestMethod1();
         }
 
         [TestMethod]
