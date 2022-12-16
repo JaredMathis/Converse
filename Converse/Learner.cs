@@ -19,7 +19,7 @@
             return $"What is {word}?";
         }
 
-        public void Learn(string v, string fruit)
+        public void Learn(string question, string answer)
         {
             throw new NotImplementedException();
         }
