@@ -24,7 +24,7 @@
             throw new NotImplementedException();
         }
 
-        public static object Implies(string a, string b)
+        public static string Implies(string a, string b)
         {
             throw new NotImplementedException();
         }
