@@ -3,17 +3,17 @@
     public class Learner
     {
         private string startWord;
-        private AskDefinition ad;
+        private AskDefinition askDefinition;
 
         public Learner(AskDefinition ad, string startWord)
         {
             this.startWord = startWord;
-            this.ad = ad;
+            this.askDefinition = ad;
         }
 
         public string Question()
         {
-            return ad.For(startWord);
+            return askDefinition.For(startWord);
         }
 
         public void Learn(string question, string answer)
